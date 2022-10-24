@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #ffc300;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em 4em;
+}
+
+.navbar-logo {
+  color: #001d3d;
+  display: flex;
+  gap: 7px;
+}
+
+.navbar-button {
+  background-color: #001d3d;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,78 @@
+.explorer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+.explorer-restaurants {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 60px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.explor-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.explorer-title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.explorer-images > p {
+  background-color: #ffc300;
+  border-radius: 10px;
+  padding: 5px 5px;
+  margin-top: -8px;
+  font-weight: 600;
+}
+
+.explorer-images {
+  text-align: center;
+}
+
+.delivery-img {
+  width: 230px;
+  height: 180px;
+}
+
+.explorer-delivery {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.delivery-card {
+  width: 250px;
+  text-align: center;
+}
+
+.delivery-card > h4 {
+  margin-bottom: 10px;
+  background-color: #ffc300;
+  border-radius: 10px;
+}
+
+.delivery-card > p {
+  font-weight: 300;
+  letter-spacing: 0.4px;
+}
+
+.explorer-button {
+  background-color: #001d3d;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}

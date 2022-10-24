@@ -1,0 +1,50 @@
+.header {
+  background-color: #ffc300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2em;
+}
+
+.custom-shape-divider-top-1666601074 {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1666601074 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 84px;
+}
+
+.custom-shape-divider-top-1666601074 .shape-fill {
+  fill: #ffc300;
+}
+
+.burger {
+  width: 300px;
+  height: 300px;
+}
+
+.header-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 2rem;
+}
+
+.header-h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
+}
+
+.header-p {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
