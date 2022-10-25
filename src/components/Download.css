@@ -1,0 +1,40 @@
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.download-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.download-info > h2 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.download-info > p {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.glovo {
+  margin-top: -10px;
+  height: 600px;
+  width: auto;
+}
+
+.button-img {
+  width: 150px;
+  height: 50px;
+}
+
+.download-button {
+  background-color: white;
+  border-style: none;
+}
