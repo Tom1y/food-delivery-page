@@ -4,7 +4,7 @@ import "./Countires.css";
 export default function Countries() {
   return (
     <div className="countries">
-      <div class="custom-shape-divider-top-1666678246">
+      {/* <div class="custom-shape-divider-top-1666678246">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +16,7 @@ export default function Countries() {
             class="shape-fill"
           ></path>
         </svg>
-      </div>
+      </div> */}
       <img src="./images/world.png"></img>
       <h2>Countries where we deliver</h2>
       <div className="countries-links">
@@ -34,7 +34,7 @@ export default function Countries() {
         <p className="countries-link">Bosnia</p>
         <p className="countries-link">Boc</p>
       </div>
-      <div class="custom-shape-divider-bottom-1666678712">
+      {/* <div class="custom-shape-divider-bottom-1666678712">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ export default function Countries() {
             class="shape-fill"
           ></path>
         </svg>
-      </div>
+      </div> */}
     </div>
   );
 }

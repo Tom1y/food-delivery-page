@@ -11,7 +11,7 @@ export default function Header() {
           <p className="header-p">Groceries, shops, pharmacies, anything!</p>
         </div>
       </div>
-      <div class="custom-shape-divider-top-1666601074">
+      {/* <div class="custom-shape-divider-top-1666601074">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ export default function Header() {
             class="shape-fill"
           ></path>
         </svg>
-      </div>
+      </div> */}
     </div>
   );
 }

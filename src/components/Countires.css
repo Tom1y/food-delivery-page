@@ -15,16 +15,8 @@
   margin-bottom: 20px;
 }
 
-.countries-links {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 10px;
-  text-align: center;
-  margin-bottom: 100px;
-  margin-top: 40px;
-}
 .countries-link {
-  width: 100px;
+  width: 6rem;
   background-color: #cce3de;
   border-radius: 20px;
   padding: 5px 10px;
@@ -68,4 +60,15 @@
 
 .custom-shape-divider-bottom-1666678712 .shape-fill {
   fill: rgba(255, 255, 255, 0.959);
+}
+
+@media (min-width: 1000px) {
+  .countries-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 40px;
+  }
 }

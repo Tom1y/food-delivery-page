@@ -4,12 +4,12 @@
   justify-content: center;
   align-items: center;
   padding-top: 2rem;
-  padding-bottom: 2em;
+  padding-bottom: 2rem;
 }
 
 .custom-shape-divider-top-1666601074 {
-  width: 100%;
-  overflow: hidden;
+  /* width: auto; */
+  /* overflow: hidden; */
   line-height: 0;
   transform: rotate(180deg);
 }
@@ -17,7 +17,7 @@
 .custom-shape-divider-top-1666601074 svg {
   position: relative;
   display: block;
-  width: calc(100% + 1.3px);
+  width: calc(100% + 1em);
   height: 84px;
 }
 
@@ -26,8 +26,8 @@
 }
 
 .burger {
-  width: 300px;
-  height: 300px;
+  width: 18.7rem;
+  height: 18.7rem;
 }
 
 .header-txt {
@@ -47,4 +47,13 @@
 .header-p {
   font-weight: 300;
   letter-spacing: 1px;
+}
+
+@media (max-width: 500px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }

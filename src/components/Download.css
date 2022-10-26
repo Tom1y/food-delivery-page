@@ -38,3 +38,9 @@
   background-color: white;
   border-style: none;
 }
+
+@media (max-width: 1000px) {
+  .glovo {
+    display: none;
+  }
+}
