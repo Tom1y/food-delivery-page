@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Explor from "./components/Explor";
 import Countries from "./components/Countries";
 import Download from "./components/Download";
+import Partner from "./components/Partner";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Explor />
       <Countries />
       <Download />
+      <Partner />
     </>
   );
 }
