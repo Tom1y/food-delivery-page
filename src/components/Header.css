@@ -5,13 +5,15 @@
   align-items: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  margin-top: -1px;
 }
 
 .custom-shape-divider-top-1666601074 {
-  /* width: auto; */
-  /* overflow: hidden; */
+  width: auto;
+  overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  margin-top: -2px;
 }
 
 .custom-shape-divider-top-1666601074 svg {
@@ -55,5 +57,11 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header-txt {
+    padding-left: 0;
   }
 }

@@ -7,6 +7,14 @@
   background-color: #ffc300;
 }
 
+.countries-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 50%;
+  gap: 10px;
+}
+
 .countries > h2 {
   font-weight: 800;
   font-size: 2rem;
@@ -24,6 +32,10 @@
   margin: 10px;
   box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
 }
+
+.countries-img {
+  margin-top: 1rem;
+}
 .custom-shape-divider-top-1666678246 {
   /* position: absolute;
   top: 0;
@@ -31,6 +43,7 @@
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  margin-top: -1px;
 }
 
 .custom-shape-divider-top-1666678246 svg {
@@ -49,6 +62,7 @@
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  margin-bottom: -2px;
 }
 
 .custom-shape-divider-bottom-1666678712 svg {
