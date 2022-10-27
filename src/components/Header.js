@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div>
       <div className="header">
-        <img className="burger" src="/images/burger.png"></img>
+        <img className="burger" src="./images/burger.png"></img>
         <div className="header-txt">
           <h1 className="header-h1">Food delivery and more</h1>
           <p className="header-p">Groceries, shops, pharmacies, anything!</p>

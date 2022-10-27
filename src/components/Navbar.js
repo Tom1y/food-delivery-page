@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="navbar-logo">
         <h2 className="navbar-txt">Foodo </h2>
         <img
-          src="/images/logoLocation.png"
+          src="./images/logoLocation.png"
           width="30px"
           height="30px"
           alt="location logo"

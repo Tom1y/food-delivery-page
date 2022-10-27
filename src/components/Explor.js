@@ -31,7 +31,7 @@ export default function Explor() {
           <p>PapaJohn's</p>
         </div>
         <div className="explorer-images">
-          <img src="./images/subway.jpg" className="explor-img"></img>
+          <img src="./images/Subway.jpg" className="explor-img"></img>
           <p>Subway</p>
         </div>
         <div className="explorer-images">
